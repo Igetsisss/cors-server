@@ -4,8 +4,8 @@ const cors = require('cors');
 
 const corsServer = corsAnywhere.createServer({
     originWhitelist: [
-      'http://localhost:3000',
-      'http://localhost:5000',
+      'http://food.jackunderwood.org',
+      'https://food.jackunderwood.org',
       'https://portfolio-ravenous.web.app',
       'https://portfolio-ravenous.firebaseapp.com'
     ],
